@@ -272,3 +272,22 @@ body, ul, li, p, a, label, input, div {
     margin-bottom: auto;
   }
 }
+
+@media only screen and (max-width: 768px){
+  .col-md-4 img{
+    margin-left:100px;
+    margin-top:20px;
+  }
+}
+@media only screen and (max-width: 500px){
+  .col-md-4 img{
+    margin-left:70px;
+    margin-top:20px;
+  }
+}
+@media only screen and (max-width: 470px){
+  .col-md-4 img{
+    margin-left:40px;
+    margin-top:20px;
+  }
+}
