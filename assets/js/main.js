@@ -15,9 +15,7 @@ $(document).ready(function() {
         }
       return false;
     });
-    // End accordion
-
-    // Product detail
+    
     $('.product-links-wap a').click(function(){
       var this_src = $(this).children('img').attr('src');
       $('#product-detail').attr('src',this_src);
@@ -46,6 +44,6 @@ $(document).ready(function() {
       $(this).addClass('btn-secondary');
       return false;
     });
-    // End roduct detail
+   
 
 });
