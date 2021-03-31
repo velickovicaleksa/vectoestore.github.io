@@ -1,9 +1,4 @@
 
-
-
-
-
-/* Typography */
 body, ul, li, p, a, label, input, div {
   font-family: 'Roboto', sans-serif;
   font-size: 18px !important;
@@ -45,21 +40,15 @@ body, ul, li, p, a, label, input, div {
   background-color: #348abf;
   color: #fff;
 }
-/* Nav */
 #aleksa_nav_top { min-height: 40px;}
 #aleksa_nav_top * { font-size: .9em !important;}
 #beograd a { color: #212934;}
 #beograd a:hover { color:#348abf;}
 #beograd .navbar .nav-icon { margin-right: 20px;}
-
-/* Hero Carousel */
 #zay-hero-carousel { background: #efefef !important;}
-/* Accordion */
 .shop-accordion a { color: #000;}
 .shop-accordion a:hover { color: #333d4a;}
-/* Shop */
 .shop-top-menu a:hover { color: #348abf !important;}
-/* Product */
 .product-wap { box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);}
 .product-wap .product-color-dot.color-dot-red { background:#f71515;}
 .product-wap .product-color-dot.color-dot-blue { background:#6db4fe;}
@@ -82,7 +71,6 @@ body, ul, li, p, a, label, input, div {
   font-size: 15px;
   margin-top: 20px;
 }
-/* Brand */
 .brand-img {
   filter: grayscale(100%);
   opacity: 0.5;
@@ -92,7 +80,6 @@ body, ul, li, p, a, label, input, div {
   filter: grayscale(0%);
   opacity: 1;
 }
-/* Carousel Hero */
 #zay-hero-carousel .carousel-indicators li {
   margin-top: -50px;
   background-color: #59ab6e;
@@ -102,19 +89,15 @@ body, ul, li, p, a, label, input, div {
   color: #348abf !important;
   font-size: 2.8em !important;
 }
-/* Carousel Brand */
 .aleksa-carousel .h1 {
   font-size: .5em !important;
   color: #000 !important;
 }
-/* Services */
 .services-icon-wap {transition: .3s;}
 .services-icon-wap:hover, .services-icon-wap:hover i {color: #fff;}
 .services-icon-wap:hover {background: #348abf;}
-/* Contact map */
 .leaflet-control a, .leaflet-control { font-size: 10px !important;}
 .form-control { border: 1px solid #e8e8e8;}
-/* Footer */
 #aleksa_footer a { color: #dcdde1;}
 #aleksa_footer a:hover { color: #348abf;}
 #aleksa_footer ul.footer-link-list li { padding-top: 10px;}
@@ -132,11 +115,6 @@ body, ul, li, p, a, label, input, div {
   transition: .5s;
 }
 #aleksa_footer .border-light { border-color: #2d343f !important;}
-/*
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
-*/
-/* Small devices (landscape phones, 576px and up)*/
 .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {
   font-size: 12px !important;
 }
@@ -148,14 +126,10 @@ body, ul, li, p, a, label, input, div {
 @media (min-width: 576px) {
   .aleksa-carousel .h1 { font-size: 1em !important;}
 }
-
-/*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   #beograd .navbar-nav {max-width: 450px;}
-  /*.section-1{margin-bottom: 10%;}*/
+ 
  }
-
-/* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
   #beograd .navbar-nav {max-width: 550px;}
   #zay-hero-carousel .carousel-item {min-height: 30rem !important;}
@@ -166,12 +140,9 @@ body, ul, li, p, a, label, input, div {
     
   }
 }
-
-/* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-  
+ 
 }
-
 @media only screen and (max-width: 768px) {
   .section-1 .row .col-md-6 .panel {
     position: initial;
@@ -179,10 +150,6 @@ body, ul, li, p, a, label, input, div {
     height: initial;
   }
 }
-
-
-
-
 .un {
   display: inline-block;
 }
@@ -197,23 +164,17 @@ body, ul, li, p, a, label, input, div {
 .un:hover::after {
   width: 100%;
 }
-
-/*Author page*/
-
 .section-1 {
   padding: 20vmin 0vmin;
 }
-
 .section-1 .row .col-md-6 .pray img {
   opacity: 0.9;
   width: 80%;
   border-radius: 0.2em;
 }
-
 .section-1 .row .col-md-6:last-child {
   position: relative;
 }
-
 .section-1 .row .col-md-6 .panel {
   position: absolute;
   top: 7vmin;
@@ -226,28 +187,21 @@ body, ul, li, p, a, label, input, div {
   font-family: var(--Rubik);
   z-index: 1;
 }
-
 .section-1 .row .col-md-6 .panel h1 {
   font-weight: bold;
   padding: 0.4em 0;
   font-size: 2em;
 }
-
 .section-1 .row .col-md-6 .panel p {
   font-size: 0.9em;
   color: rgba(0, 0, 0, 0.5);
 }
-
 .section-1 a, .section-1 i{
   text-decoration: none;
   color:#2e2c2caf;
   padding:5px;
 
 }
-
-
-/*Responsive za section 1*/
-
 @media only screen and (max-width: 768px){
   .section-1 .row .col-md-6 .panel {
     position: initial;
@@ -255,13 +209,11 @@ body, ul, li, p, a, label, input, div {
     height: initial;
   }
 }
-
 @media only screen and (min-width: 768px){
   .section-1{
     margin-bottom: 15%;
   }
 }
-
 @media only screen and (max-width: 768px){
   .section-1{
     margin-bottom: 15%;
@@ -272,7 +224,6 @@ body, ul, li, p, a, label, input, div {
     margin-bottom: auto;
   }
 }
-
 @media only screen and (max-width: 768px){
   .col-md-4 img{
     margin-left:100px;
